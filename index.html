@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&family=Open+Sans&display=swap" rel="stylesheet">
+</head> 
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+        <h1 onclick="getElementById('close-menu').checked=false;">
+            <a href="#intro">LOGO</a>
+        </h1>
+
+        <nav>
+            <ul onclick="getElementById('close-menu').checked=false;">
+                <li><a href="#intro">Introdução</a></li>
+                <li><a href="#top3">A história</a></li>
+                <li><a href="#grid-one">Top 3</a></li>
+                <li><a href="#gallery">Galeria</a></li>
+                <li><a href="#precing">Aprendizado</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="intro" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>HTML e CSS</h2>
+                <p>HTML e CSS são as principais tecnologias usadas para criar sites na internet.
+O HTML é responsável pela estrutura do conteúdo, enquanto o CSS cuida do visual e do layout das páginas.
+
+Neste site, você vai entender de forma simples como essas linguagens funcionam, sua história e como elas são usadas na prática 
+para construir páginas web. </p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/undraw_static.svg" alt="Logo de HTML, JS e CSS">
+            </div>
+        </div>
+    </section>
+
+    <section id="top3"  class="white-bg section">
+        <div class="main-content top3-content" >
+            <h2>A história</h2>
+            <div class="top3-text">
+                <p>No início da internet, as páginas eram simples e formadas apenas por textos, sem estrutura ou estilo visual 
+                    definidos. Com o crescimento da web, surgiu a necessidade de organizar melhor essas informações. </p>
+
+                <p>O HTML (HyperText Markup Language) foi criado no início dos anos 1990 por Tim Berners-Lee com o objetivo de 
+                    estruturar conteúdos na web, permitindo a criação de títulos, parágrafos, links e imagens. </p>
+
+                <p>Com o passar do tempo, o visual das páginas se tornou cada vez mais importante. Para evitar a mistura entre 
+                    conteúdo e aparência, surgiu o CSS (Cascading Style Sheets), responsável por definir cores, fontes, 
+                    espaçamentos e layouts.</p>
+
+                <p>Atualmente, HTML e CSS são tecnologias essenciais e estão presentes em praticamente todos os sites da 
+                    internet, sendo a base para o desenvolvimento web moderno.</p>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="grid-one" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-head">O que é o HTML e CSS?</h2>
+            <p class="grid-description">Abaixo você aprenderá rapidamente sobre essas tecnologias!</p>
+            <div class="grid">
+                <article>
+                    <h3>O que é HTML?</h3>
+                    <p>HTML é a linguagem usada para estruturar o conteúdo de uma página web.</p>
+                </article>
+                <article>
+                    <h3>O que é CSS?</h3>
+                    <p>CSS é a linguagem responsável pelo estilo e aparência do site.</p>
+                </article>
+                <article>
+                    <h3>HTML + CSS</h3>
+                    <p>HTML e CSS trabalham juntos para criar sites organizados e visualmente agradáveis.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+     <section id="gallery" class="grid-one white-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-head">Galeria</h2>
+            <p class="grid-description">Códigos HTML e CSS</p>
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="https://www.kenility.com/wp-content/uploads/2023/03/ImagenesBlogWeb_1-0ac-1024x768.jpg" alt="Logo HTML" class="img-code">    
+                </div>
+                <div class="gallery-img">
+                    <img src="https://mundophp.com.br/wp-content/uploads/2024/04/html-css.png" alt="Código HTML" class="img-code">    
+                </div>
+                <div class="gallery-img">
+                    <img src="https://files.tecnoblog.net/wp-content/uploads/2021/05/O-que-e-o-W3C-pankaj-patel-unsplash.jpg" alt="Código HTML" class="img-code">    
+                </div>
+                <div class="gallery-img">
+                    <img src="https://www.brasilcode.com.br/wp-content/uploads/2022/12/geradores-codigos-CSS.jpg.webp" alt="Logo CSS" class="img-code">    
+                </div>
+                <div class="gallery-img">
+                    <img src="https://files.tecnoblog.net/wp-content/uploads/2025/07/exemplo-codigo-css-linguagem-de-marcacao-1060x707.jpg" alt="Código CSS" class="img-code">    
+                </div>
+                <div class="gallery-img">
+                    <img src="https://miro.medium.com/v2/resize:fit:1358/1*U7nubFoVFuvVIwAVFGdagw.png" alt="Código CSS" class="img-code">    
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <section id="precing"  class="white-bg section">
+        <div class="main-content top3-content" >
+            <h2>Caminho de Estudo</h2>
+            <div class="top3-text">
+                <p>No desenvolvimento web, aprender HTML e CSS acontece por etapas.
+                    Cada nível representa um conjunto de conhecimentos que ajudam o iniciante a evoluir desde os conceitos básicos até a criação de 
+                    layouts modernos e responsivos. </p>
+            <div class="responsive-table">
+                <table>
+                    <caption>Níveis de aprendizado em HTML e CSS</caption>
+                    <thead>
+                        <tr>
+                        <th>Tecnologia</th>
+                        <th>Função</th>
+                        <th>Controla</th>
+                        <th>Exemplo</th>
+                        <th>Resultado</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>HTML</td>
+                            <td>Estrutura</td>
+                            <td>Conteúdo da página</td>
+                            <td>Títulos, parágrafos, imagens</td>
+                            <td>Página organizada</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>CSS</td>
+                            <td>Estilo</td>
+                            <td>Cores, fontes e layout</td>
+                            <td>Grid, Flexbox, animações</td>
+                            <td>Página visualmente agradável</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>JavaScript</td>
+                            <td>Interatividade</td>
+                            <td>Ações e eventos</td>
+                            <td>Botões, formulários, animações</td>
+                            <td>Página dinâmica</td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                         <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>End</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+
+     <section id="contact" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>HTML e CSS como base da Web</h2>
+                <p>HTML e CSS são as tecnologias fundamentais para a criação de sites na internet.
+Enquanto o HTML organiza e estrutura o conteúdo, o CSS é responsável pela aparência visual e pelo layout das páginas.
+
+Com esses conhecimentos, já é possível desenvolver páginas organizadas, responsivas e visualmente agradáveis, dando os 
+primeiros passos no desenvolvimento web e abrindo caminho para aprender novas tecnologias no futuro.</p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/undraw_contact-us_kcoa.svg" alt="Logo de HTML, JS e CSS">
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <fieldset class="form-grid">
+                <legend>Fale comigo!</legend>
+
+                <div class="form-group">
+                    <label for="first-name">Primeiro Nome</label>
+                    <input type="text" name="first-name" id="first-name" placeholder="Nome">
+                </div>
+                <div class="form-group">
+                    <label for="last-name">Último Nome</label>
+                    <input type="text" name="last-name" id="last-name" placeholder="Sobrenome">
+                </div>
+                <div class="form-group full-width">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="E-mail">
+                </div>
+                <div class="form-group full-width">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Escreva sua mensagem"></textarea>
+                </div>    
+
+                <div class="form-group full-width">
+                    <button type="submit" class="bnt-submit">Send message</button>
+                </div>
+            </fieldset>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer white-bg"> 
+        <p><a rel="nofollow" target="_blank" href="https://www.linkedin.com/in/bruno-henrique-cantarino-de-andrade-192a73223/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Feito com ❤️ por Bruno Cantarino</a></p>
+    </footer>
+
+    <a class="back-to-top" href="#">⇪</a>
+</body>
+</html>
